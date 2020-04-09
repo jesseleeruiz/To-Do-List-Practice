@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		808D936E243FC73B0047BECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D936D243FC73B0047BECC /* AppDelegate.swift */; };
 		808D9370243FC73B0047BECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D936F243FC73B0047BECC /* SceneDelegate.swift */; };
-		808D9372243FC73B0047BECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D9371243FC73B0047BECC /* ViewController.swift */; };
 		808D9375243FC73B0047BECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808D9373243FC73B0047BECC /* Main.storyboard */; };
 		808D9377243FC7430047BECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808D9376243FC7430047BECC /* Assets.xcassets */; };
 		808D937A243FC7430047BECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808D9378243FC7430047BECC /* LaunchScreen.storyboard */; };
+		808D9384243FD6DE0047BECC /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D9383243FD6DE0047BECC /* MainListViewController.swift */; };
+		808D9386243FE85B0047BECC /* MainListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		808D936A243FC73B0047BECC /* Practice Part Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Part Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808D936D243FC73B0047BECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808D936F243FC73B0047BECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		808D9371243FC73B0047BECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		808D9374243FC73B0047BECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		808D9376243FC7430047BECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808D9379243FC7430047BECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		808D937B243FC7430047BECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808D9383243FD6DE0047BECC /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				808D936D243FC73B0047BECC /* AppDelegate.swift */,
 				808D936F243FC73B0047BECC /* SceneDelegate.swift */,
-				808D9371243FC73B0047BECC /* ViewController.swift */,
 				808D9373243FC73B0047BECC /* Main.storyboard */,
 				808D9376243FC7430047BECC /* Assets.xcassets */,
 				808D9378243FC7430047BECC /* LaunchScreen.storyboard */,
 				808D937B243FC7430047BECC /* Info.plist */,
+				808D9383243FD6DE0047BECC /* MainListViewController.swift */,
+				808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */,
 			);
 			path = "Practice Part Two";
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				808D9372243FC73B0047BECC /* ViewController.swift in Sources */,
+				808D9384243FD6DE0047BECC /* MainListViewController.swift in Sources */,
 				808D936E243FC73B0047BECC /* AppDelegate.swift in Sources */,
+				808D9386243FE85B0047BECC /* MainListCollectionViewCell.swift in Sources */,
 				808D9370243FC73B0047BECC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
