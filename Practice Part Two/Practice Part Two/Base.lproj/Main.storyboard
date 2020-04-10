@@ -29,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="202.89855072463769" y="-26.116071428571427"/>
         </scene>
-        <!--Here is your ALT LST-->
+        <!--Your ALT LST-->
         <scene sceneID="1eg-n2-LGA">
             <objects>
                 <viewController id="wkY-S2-3X2" customClass="MainListViewController" customModule="Practice_Part_Two" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,7 +54,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnY-GG-JMp">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Study Literature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnY-GG-JMp">
                                                     <rect key="frame" x="30" y="8" width="302" height="62"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <nil key="textColor"/>
@@ -72,6 +72,7 @@
                                         <size key="customSize" width="340" height="90"/>
                                         <connections>
                                             <outlet property="mainListView" destination="uzz-da-0vO" id="4eV-hc-ZNE"/>
+                                            <segue destination="81m-rZ-usf" kind="show" identifier="showDetail" id="wRA-8l-rDS"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -99,7 +100,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NN5-dH-WGk"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Here is your ALT LST" id="pPV-cl-La6"/>
+                    <navigationItem key="navigationItem" title="Your ALT LST" id="pPV-cl-La6">
+                        <barButtonItem key="rightBarButtonItem" image="gear" catalog="system" largeContentSizeImage="gear" id="zYG-Sp-upx">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="deS-wM-fbQ" kind="presentation" identifier="showSettings" id="oi5-PC-Vu1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="aRC-cr-P14" id="8MW-nz-jJR"/>
                     </connections>
@@ -108,8 +116,53 @@
             </objects>
             <point key="canvasLocation" x="1169.5652173913045" y="-26.116071428571427"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="eqC-NG-lvf">
+            <objects>
+                <tableViewController id="deS-wM-fbQ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mzF-m1-X6N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8Rc-dU-UjL">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Rc-dU-UjL" id="0tu-ve-5gw">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="deS-wM-fbQ" id="Raj-mE-hg6"/>
+                            <outlet property="delegate" destination="deS-wM-fbQ" id="y1F-81-7tj"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y5I-a6-Rbm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="-781"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="knL-ed-Ykd">
+            <objects>
+                <viewController id="81m-rZ-usf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3NE-u7-6Ws">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gCA-Yt-zuN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZiP-ok-p54"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPJ-wZ-uWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="-26"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="gear" catalog="system" width="128" height="119"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>

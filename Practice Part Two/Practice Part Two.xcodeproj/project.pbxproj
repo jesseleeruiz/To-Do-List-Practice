@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805D45642441182400DBD86C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805D45632441182400DBD86C /* Model.swift */; };
 		808D936E243FC73B0047BECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D936D243FC73B0047BECC /* AppDelegate.swift */; };
 		808D9370243FC73B0047BECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D936F243FC73B0047BECC /* SceneDelegate.swift */; };
 		808D9375243FC73B0047BECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808D9373243FC73B0047BECC /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		805D45632441182400DBD86C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		808D936A243FC73B0047BECC /* Practice Part Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Part Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808D936D243FC73B0047BECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808D936F243FC73B0047BECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				808D937B243FC7430047BECC /* Info.plist */,
 				808D9383243FD6DE0047BECC /* MainListViewController.swift */,
 				808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */,
+				805D45632441182400DBD86C /* Model.swift */,
 			);
 			path = "Practice Part Two";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805D45642441182400DBD86C /* Model.swift in Sources */,
 				808D9384243FD6DE0047BECC /* MainListViewController.swift in Sources */,
 				808D936E243FC73B0047BECC /* AppDelegate.swift in Sources */,
 				808D9386243FE85B0047BECC /* MainListCollectionViewCell.swift in Sources */,
