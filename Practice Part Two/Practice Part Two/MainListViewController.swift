@@ -13,6 +13,9 @@ class MainListViewController: UIViewController {
     // MARK: - Outlets
     @IBOutlet weak var collectionView: UICollectionView!
     
+    // MARK: - Properties
+    var labels: Model?
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +43,6 @@ extension MainListViewController: UICollectionViewDataSource, UICollectionViewDe
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ListCell", for: indexPath) as? MainListCollectionViewCell else { return UICollectionViewCell() }
-        cell.layer.cornerRadius = 10
         return cell
     }
 }
