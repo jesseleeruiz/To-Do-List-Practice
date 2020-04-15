@@ -16,6 +16,7 @@
 		808D9384243FD6DE0047BECC /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D9383243FD6DE0047BECC /* MainListViewController.swift */; };
 		808D9386243FE85B0047BECC /* MainListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */; };
 		80F8725224419821002BE409 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8725124419821002BE409 /* UIColor+CustomColor.swift */; };
+		80F8725424452166002BE409 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8725324452166002BE409 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		808D9383243FD6DE0047BECC /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
 		808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListCollectionViewCell.swift; sourceTree = "<group>"; };
 		80F8725124419821002BE409 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		80F8725324452166002BE409 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				808D9385243FE85B0047BECC /* MainListCollectionViewCell.swift */,
 				805D45632441182400DBD86C /* Model.swift */,
 				80F8725124419821002BE409 /* UIColor+CustomColor.swift */,
+				80F8725324452166002BE409 /* UIView+Extension.swift */,
 			);
 			path = "Practice Part Two";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				805D45642441182400DBD86C /* Model.swift in Sources */,
+				80F8725424452166002BE409 /* UIView+Extension.swift in Sources */,
 				808D9384243FD6DE0047BECC /* MainListViewController.swift in Sources */,
 				808D936E243FC73B0047BECC /* AppDelegate.swift in Sources */,
 				808D9386243FE85B0047BECC /* MainListCollectionViewCell.swift in Sources */,

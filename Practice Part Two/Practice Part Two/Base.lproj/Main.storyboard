@@ -40,7 +40,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aRC-cr-P14">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pxf-dq-CAZ">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="0.0" id="pxf-dq-CAZ">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -48,14 +48,14 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="ListCell" id="VWE-SY-Qde" customClass="MainListCollectionViewCell" customModule="Practice_Part_Two" customModuleProvider="target">
-                                        <rect key="frame" x="37" y="25" width="340" height="90"/>
+                                        <rect key="frame" x="18.5" y="25" width="377" height="103"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uzz-da-0vO">
-                                            <rect key="frame" x="0.0" y="0.0" width="340" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="377" height="103"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Study Literature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnY-GG-JMp">
-                                                    <rect key="frame" x="30" y="8" width="302" height="62"/>
+                                                    <rect key="frame" x="30" y="8" width="339" height="75"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -68,8 +68,8 @@
                                                 <constraint firstItem="qnY-GG-JMp" firstAttribute="leading" relation="lessThanOrEqual" secondItem="uzz-da-0vO" secondAttribute="leading" constant="30" id="ehE-N5-6ph"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <size key="customSize" width="340" height="90"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="customSize" width="377" height="103"/>
                                         <connections>
                                             <outlet property="mainListView" destination="uzz-da-0vO" id="4eV-hc-ZNE"/>
                                             <segue destination="81m-rZ-usf" kind="show" identifier="showDetail" id="wRA-8l-rDS"/>

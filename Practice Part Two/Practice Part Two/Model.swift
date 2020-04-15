@@ -10,4 +10,6 @@ import Foundation
 
 struct Model {
     var text: String
+    
+    
 }
